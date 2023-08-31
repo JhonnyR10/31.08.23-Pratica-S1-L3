@@ -1,71 +1,67 @@
 /* IMPOSTAZIONI GENERALI */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
  body{
-    width: 500px;
-    max-height: auto;
-    margin:0px;
-    border:0px;
+    background-image: url(../img/sfondo.png);
     font-family: 'Poppins', sans-serif;
-    background-image:url("../img/sfondo.png") ;
-    background-size: 100%;
-    background-attachment: fixed;
+    font-size: 1.4rem;
+    padding: 15px; /* per evitare le scrollbar*/
 
  }
 /* HEADER */
-.header-contenitor{
-    margin: 10px;
-    border:1px  rgb(45 112 140);
-    background-color:rgb(45 112 140);
-    width: 250px;
+header{
     height: auto;
-    margin-left: auto;
-        margin-right: auto;
-        padding: 1.1em;
+    background: rgb(0, 160, 198);
+    background: linear-gradient(rgba(0, 160, 198, 1), rgba(3, 109, 134, 1) 68%);
+    text-align: center;
+    box-shadow: 0px 3px 3px #444;
+    font-weight: 600px; 
+    margin-left:auto;
+    margin-right:auto;   
 }
 
 .header-contenitor img{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 1.1em;
- 
-    width: 180px;;
+    width: 200px;
+    margin-bottom: 30px; 
 }
 
-.header-contenitor h2{
-    text-align: center;
-    padding-bottom: 1em;
-    font-size: 13px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
+.header-contenitor {
+    padding: 20px;
+    color:white;
+    
+    font-size: 15px; 
 }
-.header-contenitor nav a {
-    text-align: center;
-    margin-left: auto;
-        margin-right: auto;
-    display: block;
+.nav-contenitor{
+    padding-bottom: 30px;
+    font:medium;
+    
+}
+header nav ul li{
+    list-style: none;
+}
+.nav-contenitor a {
+  
+    padding-bottom: 4px;
+    font-size: 15px;
+    color:white;
+    text-decoration: none;  
+}
+header nav li a:hover {
+    color: red;
 }
 
 /* MAIN */
 .container{
-    
-        border: 1px rgb(45 112 140);
-        background-color: white;
-        width: 250px;
-        margin-left: auto;
-            margin-right: auto;
-        
-        
+    margin-top: 20px;
+    background-color: white;
+    background: linear-gradient(rgb(253, 253, 253), rgb(255, 255, 255) 68%);
+    box-shadow: 0px 3px 3px #444;
+    padding-left: 15px;
+    padding-top: 40px;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-h1{
-    text-align:left;
-    font-weight:;
-    font-size: 1.3em;
-}
+
 /* TABELLE */
 
 /* FORM */
